@@ -10,11 +10,17 @@ import UIKit
 
 struct global {
     static var night = 0
+    static var language = 0
 }
 
 class ViewController: UIViewController {
 
+    // MARK: - IBOutlet Declaration
     @IBOutlet weak var switchTheme: UISegmentedControl!
+    @IBOutlet weak var languageSwitch: UISegmentedControl!
+    @IBOutlet weak var kitLabel: UILabel!
+    @IBOutlet weak var naturalLabel: UILabel!
+    
     
     @IBAction func switchPressed() {
         if switchTheme.selectedSegmentIndex == 1 {
@@ -27,6 +33,23 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func changeLanguage() {
+        if languageSwitch.selectedSegmentIndex == 1 {
+            switchTheme.setTitle("Normal", forSegmentAt: 0)
+            switchTheme.setTitle("Malam", forSegmentAt: 1)
+            kitLabel.text = "KOTAK"
+            naturalLabel.text = "ALAMI"
+            global.language = 1
+        }
+        else if languageSwitch.selectedSegmentIndex == 0 {
+            switchTheme.setTitle("Default", forSegmentAt: 0)
+            switchTheme.setTitle("Night", forSegmentAt: 1)
+            kitLabel.text = "KIT"
+            naturalLabel.text = "NATURAL"
+            global.language = 0
+        }
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

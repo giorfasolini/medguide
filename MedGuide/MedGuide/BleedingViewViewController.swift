@@ -39,6 +39,12 @@ class BleedingViewViewController: UIViewController, UITableViewDelegate, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        if global.night == 1 {
+            self.view.backgroundColor = UIColor.black
+        }
+        else {
+            self.view.backgroundColor = #colorLiteral(red: 0.2921254337, green: 0.7372629046, blue: 0.5889239311, alpha: 1)
+        }
         // Do any additional setup after loading the view.
     }
 

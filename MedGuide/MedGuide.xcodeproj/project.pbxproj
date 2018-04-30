@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297120D7209701DC00ABDC01 /* typeOfInfectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297120D6209701DC00ABDC01 /* typeOfInfectionViewController.swift */; };
+		297120D92097021600ABDC01 /* typeOfBoneInjuryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297120D82097021600ABDC01 /* typeOfBoneInjuryViewController.swift */; };
 		298D346C2090C7C5003A4F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D346B2090C7C5003A4F44 /* AppDelegate.swift */; };
 		298D346E2090C7C5003A4F44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D346D2090C7C5003A4F44 /* ViewController.swift */; };
 		298D34712090C7C5003A4F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D346F2090C7C5003A4F44 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		297120D6209701DC00ABDC01 /* typeOfInfectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeOfInfectionViewController.swift; sourceTree = "<group>"; };
+		297120D82097021600ABDC01 /* typeOfBoneInjuryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeOfBoneInjuryViewController.swift; sourceTree = "<group>"; };
 		298D34682090C7C4003A4F44 /* MedGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D346B2090C7C5003A4F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298D346D2090C7C5003A4F44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				298D346B2090C7C5003A4F44 /* AppDelegate.swift */,
 				298D346D2090C7C5003A4F44 /* ViewController.swift */,
 				298D346F2090C7C5003A4F44 /* Main.storyboard */,
+				297120D82097021600ABDC01 /* typeOfBoneInjuryViewController.swift */,
+				297120D6209701DC00ABDC01 /* typeOfInfectionViewController.swift */,
 				29BEC4F620931425000D914E /* bleedingViewController.swift */,
 				29BEC4F420931143000D914E /* typeOfInjuryViewController.swift */,
 				298D34722090C7C5003A4F44 /* Assets.xcassets */,
@@ -149,6 +155,8 @@
 			files = (
 				53C80E012096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift in Sources */,
 				29BEC4F720931425000D914E /* bleedingViewController.swift in Sources */,
+				297120D92097021600ABDC01 /* typeOfBoneInjuryViewController.swift in Sources */,
+				297120D7209701DC00ABDC01 /* typeOfInfectionViewController.swift in Sources */,
 				298D346E2090C7C5003A4F44 /* ViewController.swift in Sources */,
 				298D346C2090C7C5003A4F44 /* AppDelegate.swift in Sources */,
 				53C80E032096EE43009D49A0 /* BleedingViewViewController.swift in Sources */,
