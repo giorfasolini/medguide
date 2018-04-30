@@ -126,11 +126,25 @@
                                 <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="0.0" height="2"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fyx-9S-f9I">
+                                <rect key="frame" x="247" y="97" width="121" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Default"/>
+                                    <segment title="Night"/>
+                                </segments>
+                                <connections>
+                                    <action selector="switchPressed" destination="kxF-17-JfN" eventType="valueChanged" id="T5j-Lc-54p"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.49019607840000001" green="0.71764705880000002" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.54117647058823526" green="0.70980392156862748" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="HKY-Hf-6IF"/>
                     </view>
                     <navigationItem key="navigationItem" id="kOT-f3-dmJ"/>
+                    <connections>
+                        <outlet property="switchTheme" destination="fyx-9S-f9I" id="pzG-uU-vqA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YkZ-MI-3CW" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="XZe-yf-cjv">
@@ -141,10 +155,10 @@
             </objects>
             <point key="canvasLocation" x="1871.2" y="-117.48768472906404"/>
         </scene>
-        <!--View Controller-->
+        <!--Bleeding View Controller-->
         <scene sceneID="cF8-ce-Gkj">
             <objects>
-                <viewController id="w0R-Wy-vIE" sceneMemberID="viewController">
+                <viewController id="w0R-Wy-vIE" customClass="bleedingViewController" customModule="MedGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O3F-X8-xCa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,10 +226,10 @@ WOUND</string>
             </objects>
             <point key="canvasLocation" x="3311.1999999999998" y="-117.48768472906404"/>
         </scene>
-        <!--View Controller-->
+        <!--Type Of Injury View Controller-->
         <scene sceneID="adJ-SU-nyU">
             <objects>
-                <viewController id="sz0-ks-Hl5" sceneMemberID="viewController">
+                <viewController id="sz0-ks-Hl5" customClass="typeOfInjuryViewController" customModule="MedGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wXe-Lk-ctZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
