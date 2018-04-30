@@ -8,8 +8,34 @@
 
 import UIKit
 
-class BleedingViewViewController: UIViewController {
+class BleedingViewViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    let images = ["Clean_Wound", "Apply_Alcohol","Apply_Bandage"]
+    let stepLabel = ["STEP 1", "STEP 2", "STEP 3"]
+    let explanationLabel = ["Clean the wound by using clean water. Warm water or salt water are reccomended.",
+        "Wipe the wounded area using the medical alcohol by using clean cloth or bandage.",
+        "Wrap tightly the part of wounded area. bandage is recommended, alternative : cloth"]
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return (images.count)
+        
+    }
+    
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        
+        let bleedingCell = tableView.dequeueReusableCell(withIdentifier: "Bleeding_Cell", for: indexPath) as! BleedingViewControllerTableViewCell
+        
+        bleedingCell.myImage_Bleeding.image = UIImage(named: (images[indexPath.row] + ".jpg"))
+        bleedingCell.myStepLabel_Bleeding.text = stepLabel[indexPath.row]
+        bleedingCell.myExplanation_Bleeding.text = explanationLabel[indexPath.row]
+        
+        return (bleedingCell)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

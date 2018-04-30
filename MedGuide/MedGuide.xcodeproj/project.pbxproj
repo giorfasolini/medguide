@@ -14,6 +14,8 @@
 		298D34762090C7C5003A4F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D34742090C7C5003A4F44 /* LaunchScreen.storyboard */; };
 		29BEC4F520931143000D914E /* typeOfInjuryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BEC4F420931143000D914E /* typeOfInjuryViewController.swift */; };
 		29BEC4F720931425000D914E /* bleedingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BEC4F620931425000D914E /* bleedingViewController.swift */; };
+		53C80E012096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C80E002096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift */; };
+		53C80E032096EE43009D49A0 /* BleedingViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C80E022096EE43009D49A0 /* BleedingViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		298D34772090C7C5003A4F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29BEC4F420931143000D914E /* typeOfInjuryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeOfInjuryViewController.swift; sourceTree = "<group>"; };
 		29BEC4F620931425000D914E /* bleedingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleedingViewController.swift; sourceTree = "<group>"; };
+		53C80E002096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleedingViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		53C80E022096EE43009D49A0 /* BleedingViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleedingViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				298D34722090C7C5003A4F44 /* Assets.xcassets */,
 				298D34742090C7C5003A4F44 /* LaunchScreen.storyboard */,
 				298D34772090C7C5003A4F44 /* Info.plist */,
+				53C80E002096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift */,
+				53C80E022096EE43009D49A0 /* BleedingViewViewController.swift */,
 			);
 			path = MedGuide;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C80E012096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift in Sources */,
 				29BEC4F720931425000D914E /* bleedingViewController.swift in Sources */,
 				298D346E2090C7C5003A4F44 /* ViewController.swift in Sources */,
 				298D346C2090C7C5003A4F44 /* AppDelegate.swift in Sources */,
+				53C80E032096EE43009D49A0 /* BleedingViewViewController.swift in Sources */,
 				29BEC4F520931143000D914E /* typeOfInjuryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

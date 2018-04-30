@@ -10,6 +10,14 @@ import UIKit
 
 class BleedingViewControllerTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var myImage_Bleeding: UIImageView!
+    @IBOutlet weak var myStepLabel_Bleeding: UILabel!
+    @IBOutlet weak var myExplanation_Bleeding: UILabel!
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
