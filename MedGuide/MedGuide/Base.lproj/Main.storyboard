@@ -78,17 +78,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="QHT-uI-3Dv">
-                                <rect key="frame" x="79" y="431" width="228" height="230"/>
+                                <rect key="frame" x="58" y="433" width="270" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EtT-Eo-Hjn">
                                 <rect key="frame" x="58" y="133" width="268" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="fmE-fc-s1p">
-                                        <rect key="frame" x="20" y="20" width="228" height="230"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bandaid" translatesAutoresizingMaskIntoConstraints="NO" id="1Xk-j8-xbM">
                                         <rect key="frame" x="57" y="51" width="130" height="112"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -106,6 +102,10 @@
                                         <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <size key="shadowOffset" width="0.0" height="2"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="fmE-fc-s1p">
+                                        <rect key="frame" x="-1" y="5" width="269" height="272"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -114,18 +114,9 @@
                                 </connections>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="herbs" translatesAutoresizingMaskIntoConstraints="NO" id="zqB-7q-sG2">
-                                <rect key="frame" x="67" y="465" width="240" height="128"/>
+                                <rect key="frame" x="73" y="464" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HERBS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUc-FW-JcH">
-                                <rect key="frame" x="138" y="569" width="111" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <size key="shadowOffset" width="0.0" height="2"/>
-                            </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fyx-9S-f9I">
                                 <rect key="frame" x="247" y="97" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -137,8 +128,17 @@
                                     <action selector="switchPressed" destination="kxF-17-JfN" eventType="valueChanged" id="T5j-Lc-54p"/>
                                 </connections>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NATURAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUc-FW-JcH">
+                                <rect key="frame" x="100" y="585" width="187" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.54117647058823526" green="0.70980392156862748" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="HKY-Hf-6IF"/>
                     </view>
                     <navigationItem key="navigationItem" id="kOT-f3-dmJ"/>
@@ -163,17 +163,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6V-uD-HJx">
-                                <rect key="frame" x="153" y="430" width="222" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">DEEP
-WOUND</string>
-                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <size key="shadowOffset" width="0.0" height="2"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="tNZ-ve-EEC">
                                 <rect key="frame" x="16" y="398" width="176" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -182,17 +171,6 @@ WOUND</string>
                                 <rect key="frame" x="-4" y="162" width="406" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQV-Bi-0bf">
-                                        <rect key="frame" x="151" y="29" width="235" height="154"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">LIGHT
-WOUND</string>
-                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="36"/>
-                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <size key="shadowOffset" width="0.0" height="2"/>
-                                    </label>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blood" translatesAutoresizingMaskIntoConstraints="NO" id="sMA-mN-8uX">
                                         <rect key="frame" x="43" y="80" width="130" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -201,6 +179,17 @@ WOUND</string>
                                         <rect key="frame" x="20" y="20" width="176" height="173"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQV-Bi-0bf">
+                                        <rect key="frame" x="222" y="29" width="235" height="154"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">LIGHT
+WOUND</string>
+                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="0.0" height="2"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -217,14 +206,25 @@ WOUND</string>
                                 <rect key="frame" x="39" y="430" width="130" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6V-uD-HJx">
+                                <rect key="frame" x="222" y="430" width="222" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">DEEP
+WOUND</string>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.49019607843137253" green="0.71764705882352942" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="3nV-xz-vsg"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9p6-py-EhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3311.1999999999998" y="-117.48768472906404"/>
+            <point key="canvasLocation" x="3598" y="-875"/>
         </scene>
         <!--Type Of Injury View Controller-->
         <scene sceneID="adJ-SU-nyU">
@@ -269,23 +269,16 @@ WOUND</string>
                                     <outletCollection property="gestureRecognizers" destination="lHY-Em-IGf" appends="YES" id="9Xr-ZZ-FdZ"/>
                                 </connections>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bacteria" translatesAutoresizingMaskIntoConstraints="NO" id="9IR-uG-h2c">
-                                <rect key="frame" x="-12" y="380" width="218" height="117"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="infection" translatesAutoresizingMaskIntoConstraints="NO" id="9IR-uG-h2c">
+                                <rect key="frame" x="-5" y="380" width="211" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bone-2" translatesAutoresizingMaskIntoConstraints="NO" id="wLV-4L-cis">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bone" translatesAutoresizingMaskIntoConstraints="NO" id="wLV-4L-cis">
                                 <rect key="frame" x="-23" y="565" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INFECTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQb-3A-dIl">
                                 <rect key="frame" x="205" y="418" width="149" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FRACTURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbs-HZ-DKs">
-                                <rect key="frame" x="196" y="609" width="167" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -298,8 +291,17 @@ WOUND</string>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbs-HZ-DKs">
+                                <rect key="frame" x="205" y="589" width="121" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">BONE
+INJURIES</string>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.49019607843137253" green="0.71764705882352942" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="0na-Ls-hP0"/>
                     </view>
                 </viewController>
@@ -310,7 +312,7 @@ WOUND</string>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2588" y="-117.48768472906404"/>
+            <point key="canvasLocation" x="2727" y="-117"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jQB-0L-D6V">
@@ -330,14 +332,407 @@ WOUND</string>
             </objects>
             <point key="canvasLocation" x="928.79999999999995" y="-117.48768472906404"/>
         </scene>
+        <!--Type Of Injury View Controller-->
+        <scene sceneID="wEh-5b-Wie">
+            <objects>
+                <viewController id="Zit-gi-s4N" customClass="typeOfInjuryViewController" customModule="MedGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fcA-ly-MFj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="dPk-aI-drh">
+                                <rect key="frame" x="-27" y="352" width="250" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="rbF-xY-JfR">
+                                <rect key="frame" x="-27" y="543" width="250" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p8S-lm-oOe">
+                                <rect key="frame" x="-47" y="135" width="420" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blood" translatesAutoresizingMaskIntoConstraints="NO" id="u5x-T4-0aA">
+                                        <rect key="frame" x="47" y="55" width="194" height="103"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="ZQp-sz-zNF">
+                                        <rect key="frame" x="20" y="20" width="250" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLEEDING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBM-sM-1oG">
+                                        <rect key="frame" x="252" y="81" width="148" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="GyY-Qb-iaR" appends="YES" id="rHR-Kl-Y4w"/>
+                                </connections>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bone" translatesAutoresizingMaskIntoConstraints="NO" id="ONF-64-5TF">
+                                <rect key="frame" x="-23" y="565" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INFECTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ol4-vR-IKE">
+                                <rect key="frame" x="205" y="418" width="149" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FRACTURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0s-75-05V">
+                                <rect key="frame" x="196" y="609" width="167" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What Treatment Do You Need?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzq-D2-YHg">
+                                <rect key="frame" x="21" y="102" width="333" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="25"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="infection" translatesAutoresizingMaskIntoConstraints="NO" id="vok-43-IDc">
+                                <rect key="frame" x="-5" y="382" width="211" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Cwa-5G-ELY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ai3-Em-bX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="GyY-Qb-iaR"/>
+            </objects>
+            <point key="canvasLocation" x="1869.5999999999999" y="643.5960591133005"/>
+        </scene>
+        <!--Infection View Controller-->
+        <scene sceneID="ncx-22-n0i">
+            <objects>
+                <viewController id="DBE-XN-52t" customClass="infectionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DXf-HU-0sg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="8sH-oc-dAA">
+                                <rect key="frame" x="16" y="398" width="176" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d81-7L-Ahf" userLabel="LIGHT WOUND">
+                                <rect key="frame" x="-4" y="162" width="406" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="DE7-La-RTD">
+                                        <rect key="frame" x="20" y="20" width="176" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACTERIA" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKw-AI-dKH">
+                                        <rect key="frame" x="221" y="29" width="235" height="154"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="0.0" height="2"/>
+                                    </label>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bacteria" translatesAutoresizingMaskIntoConstraints="NO" id="Ocp-3n-JXx">
+                                        <rect key="frame" x="-15" y="52" width="273" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VIRUS" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CX-Kk-6So">
+                                <rect key="frame" x="221" y="430" width="222" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="virus" translatesAutoresizingMaskIntoConstraints="NO" id="LMr-Hn-iZz">
+                                <rect key="frame" x="-32" y="431" width="272" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24705882352941178" green="0.69411764705882351" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fGb-Dx-aDN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F4n-aR-YMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3597.5999999999999" y="-117.48768472906404"/>
+        </scene>
+        <!--Infection View Controller-->
+        <scene sceneID="znr-RA-C3n">
+            <objects>
+                <viewController id="eqd-1O-fzl" customClass="infectionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="odh-2d-5r3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="G1H-go-9Qz">
+                                <rect key="frame" x="16" y="398" width="176" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="chC-cC-ff6" userLabel="LIGHT WOUND">
+                                <rect key="frame" x="-4" y="162" width="406" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="wMz-Ny-sfI">
+                                        <rect key="frame" x="20" y="20" width="176" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dislocation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpp-dH-70d">
+                                        <rect key="frame" x="-28" y="52" width="273" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DISLOCATION" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrP-6y-nJ6">
+                                        <rect key="frame" x="214" y="29" width="235" height="154"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="25"/>
+                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="0.0" height="2"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fractures" translatesAutoresizingMaskIntoConstraints="NO" id="uhO-sc-CyC">
+                                <rect key="frame" x="-32" y="431" width="272" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FRACTURES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yu-ZK-d0J">
+                                <rect key="frame" x="211" y="430" width="222" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="AFB-Si-3RH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2O-0S-a0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3598" y="653"/>
+        </scene>
+        <!--Infection View Controller-->
+        <scene sceneID="tpK-8h-yY4">
+            <objects>
+                <viewController id="ngY-nK-GFy" customClass="infectionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5C4-cT-VL3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="JTw-Wv-9uW">
+                                <rect key="frame" x="16" y="398" width="176" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="92w-HR-NXk" userLabel="LIGHT WOUND">
+                                <rect key="frame" x="-4" y="162" width="406" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="cMR-Hn-bhq">
+                                        <rect key="frame" x="20" y="20" width="176" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACTERIA" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PP8-oz-8pd">
+                                        <rect key="frame" x="221" y="29" width="235" height="154"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="0.0" height="2"/>
+                                    </label>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bacteria" translatesAutoresizingMaskIntoConstraints="NO" id="PPE-sK-dZZ">
+                                        <rect key="frame" x="-15" y="52" width="273" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VIRUS" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaK-Ew-U9A">
+                                <rect key="frame" x="221" y="430" width="222" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="virus" translatesAutoresizingMaskIntoConstraints="NO" id="WVr-m6-qSE">
+                                <rect key="frame" x="-32" y="431" width="272" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fCw-st-xeH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1C-LS-10U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1871" y="1388"/>
+        </scene>
+        <!--Infection View Controller-->
+        <scene sceneID="WC5-mx-LpK">
+            <objects>
+                <viewController id="S8B-gf-rkz" customClass="infectionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zbg-SO-YRx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="kEQ-Xt-ku7">
+                                <rect key="frame" x="16" y="398" width="176" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWw-1s-37e" userLabel="LIGHT WOUND">
+                                <rect key="frame" x="-4" y="162" width="406" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="iPm-mC-tMA">
+                                        <rect key="frame" x="20" y="20" width="176" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dislocation" translatesAutoresizingMaskIntoConstraints="NO" id="IDS-GK-2zw">
+                                        <rect key="frame" x="-28" y="52" width="273" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DISLOCATION" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKK-7a-CKc">
+                                        <rect key="frame" x="214" y="29" width="235" height="154"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="25"/>
+                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="0.0" height="2"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fractures" translatesAutoresizingMaskIntoConstraints="NO" id="en0-hU-dQm">
+                                <rect key="frame" x="-32" y="431" width="272" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FRACTURES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="085-5m-Dxc">
+                                <rect key="frame" x="211" y="430" width="222" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="oaM-iG-Ab5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bqH-1E-4sf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2726" y="1388"/>
+        </scene>
+        <!--Bleeding View Controller-->
+        <scene sceneID="OGH-P5-huK">
+            <objects>
+                <viewController id="bF8-fY-Nz1" customClass="bleedingViewController" customModule="MedGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="px8-9L-Ofb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="Oso-oZ-JKB">
+                                <rect key="frame" x="16" y="398" width="176" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tIi-Ae-vZg" userLabel="LIGHT WOUND">
+                                <rect key="frame" x="-4" y="162" width="406" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blood" translatesAutoresizingMaskIntoConstraints="NO" id="mFC-US-f2N">
+                                        <rect key="frame" x="43" y="80" width="130" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="uvJ-ow-X6v">
+                                        <rect key="frame" x="20" y="20" width="176" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8K-tX-LOL">
+                                        <rect key="frame" x="222" y="29" width="235" height="154"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">LIGHT
+WOUND</string>
+                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="0.0" height="2"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blood" translatesAutoresizingMaskIntoConstraints="NO" id="MCY-8S-YuS">
+                                <rect key="frame" x="16" y="474" width="130" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blood" translatesAutoresizingMaskIntoConstraints="NO" id="fbd-VL-7AR">
+                                <rect key="frame" x="62" y="474" width="130" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blood" translatesAutoresizingMaskIntoConstraints="NO" id="QKx-7D-sQ1">
+                                <rect key="frame" x="39" y="430" width="130" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3z-RO-apE">
+                                <rect key="frame" x="222" y="430" width="222" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">DEEP
+WOUND</string>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="VGp-3r-8kE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tIC-dv-Cab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="1388"/>
+        </scene>
     </scenes>
     <resources>
         <image name="alcohol" width="460" height="460"/>
         <image name="bacteria" width="512" height="512"/>
         <image name="bandaid" width="512" height="512"/>
         <image name="blood" width="512" height="512"/>
-        <image name="bone-2" width="512" height="512"/>
+        <image name="bone" width="512" height="512"/>
         <image name="circle-2" width="512" height="512"/>
+        <image name="dislocation" width="512" height="512"/>
+        <image name="fractures" width="512" height="512"/>
         <image name="herbs" width="512" height="512"/>
+        <image name="infection" width="512" height="512"/>
+        <image name="virus" width="512" height="512"/>
     </resources>
 </document>
