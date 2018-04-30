@@ -18,6 +18,8 @@
 		29BEC4F720931425000D914E /* bleedingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BEC4F620931425000D914E /* bleedingViewController.swift */; };
 		53C80E012096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C80E002096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift */; };
 		53C80E032096EE43009D49A0 /* BleedingViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C80E022096EE43009D49A0 /* BleedingViewViewController.swift */; };
+		53C80E0520970A3E009D49A0 /* NaturalBleedingViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C80E0420970A3E009D49A0 /* NaturalBleedingViewViewController.swift */; };
+		53C80E0720970A63009D49A0 /* NaturalBleedingControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C80E0620970A63009D49A0 /* NaturalBleedingControllerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		29BEC4F620931425000D914E /* bleedingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleedingViewController.swift; sourceTree = "<group>"; };
 		53C80E002096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleedingViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		53C80E022096EE43009D49A0 /* BleedingViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleedingViewViewController.swift; sourceTree = "<group>"; };
+		53C80E0420970A3E009D49A0 /* NaturalBleedingViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalBleedingViewViewController.swift; sourceTree = "<group>"; };
+		53C80E0620970A63009D49A0 /* NaturalBleedingControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalBleedingControllerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				298D34772090C7C5003A4F44 /* Info.plist */,
 				53C80E002096EDA5009D49A0 /* BleedingViewControllerTableViewCell.swift */,
 				53C80E022096EE43009D49A0 /* BleedingViewViewController.swift */,
+				53C80E0420970A3E009D49A0 /* NaturalBleedingViewViewController.swift */,
+				53C80E0620970A63009D49A0 /* NaturalBleedingControllerTableViewCell.swift */,
 			);
 			path = MedGuide;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 				298D346C2090C7C5003A4F44 /* AppDelegate.swift in Sources */,
 				53C80E032096EE43009D49A0 /* BleedingViewViewController.swift in Sources */,
 				29BEC4F520931143000D914E /* typeOfInjuryViewController.swift in Sources */,
+				53C80E0520970A3E009D49A0 /* NaturalBleedingViewViewController.swift in Sources */,
+				53C80E0720970A63009D49A0 /* NaturalBleedingControllerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -171,8 +171,33 @@
                                     <action selector="switchPressed" destination="kxF-17-JfN" eventType="valueChanged" id="T5j-Lc-54p"/>
                                 </connections>
                             </segmentedControl>
+<<<<<<< Updated upstream
                         </barButtonItem>
                     </navigationItem>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NATURAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUc-FW-JcH">
+                                <rect key="frame" x="100" y="585" width="187" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.75134835030000002" green="0.74025913070000005" blue="0.74867319330000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUf-QO-IZp" colorLabel="IBBuiltInLabel-Yellow">
+                                <rect key="frame" x="169" y="713" width="46" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="TUT-pw-Y6t" kind="show" id="MdJ-5H-vlF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2470588235" green="0.69411764710000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="HKY-Hf-6IF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kOT-f3-dmJ"/>
+>>>>>>> Stashed changes
                     <connections>
                         <outlet property="kitLabel" destination="Dvd-mN-4Kt" id="9lW-ej-JhM"/>
                         <outlet property="languageSwitch" destination="fvg-x2-Dt4" id="Cur-e8-SjL"/>
@@ -306,7 +331,7 @@ WOUND</string>
                                                         <constraint firstAttribute="width" secondItem="rL6-dl-smS" secondAttribute="height" multiplier="73:10" id="pYN-lr-MYN"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="23"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ks4-4T-RtA">
@@ -315,7 +340,7 @@ WOUND</string>
                                                         <constraint firstAttribute="width" secondItem="ks4-4T-RtA" secondAttribute="height" multiplier="345:98" id="8Ix-Yh-fOe"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="18"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3zT-It-dJt">
@@ -801,6 +826,86 @@ relevant to?</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N1C-LS-10U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1871" y="1388"/>
+        </scene>
+        <!--Natural Bleeding View View Controller-->
+        <scene sceneID="9Ma-tP-Y9c">
+            <objects>
+                <viewController id="TUT-pw-Y6t" customClass="NaturalBleedingViewViewController" customModule="MedGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Jv-Wh-djh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cE2-m2-Xwf">
+                                <rect key="frame" x="0.0" y="44" width="375" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="naturalBleeding_Cell" rowHeight="458" id="wc9-l7-7Xf" customClass="NaturalBleedingControllerTableViewCell" customModule="MedGuide" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="458"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wc9-l7-7Xf" id="a5w-Ev-wSK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="457.66666666666669"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nca-wZ-baC">
+                                                    <rect key="frame" x="15" y="11" width="345" height="229"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Nca-wZ-baC" secondAttribute="height" multiplier="345:229" id="ImZ-5v-QAw"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbe-tk-hhg">
+                                                    <rect key="frame" x="15" y="263" width="175" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Sbe-tk-hhg" secondAttribute="height" multiplier="35:4" id="xLA-wS-yMb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="23"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzG-wg-QFM">
+                                                    <rect key="frame" x="15" y="316" width="345" height="98"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="LzG-wg-QFM" secondAttribute="height" multiplier="345:98" id="hz4-0q-YhO"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MyanmarSangamMN" family="Myanmar Sangam MN" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Sbe-tk-hhg" firstAttribute="top" secondItem="Nca-wZ-baC" secondAttribute="bottom" constant="23" id="9Ee-DI-WNT"/>
+                                                <constraint firstItem="LzG-wg-QFM" firstAttribute="trailing" secondItem="a5w-Ev-wSK" secondAttribute="trailingMargin" id="HRl-XR-unl"/>
+                                                <constraint firstItem="Nca-wZ-baC" firstAttribute="leading" secondItem="a5w-Ev-wSK" secondAttribute="leadingMargin" id="N1b-xQ-AIK"/>
+                                                <constraint firstItem="Nca-wZ-baC" firstAttribute="trailing" secondItem="a5w-Ev-wSK" secondAttribute="trailingMargin" id="TyB-L8-ohn"/>
+                                                <constraint firstItem="Sbe-tk-hhg" firstAttribute="top" secondItem="Nca-wZ-baC" secondAttribute="bottom" constant="23" id="W4E-Ig-bkj"/>
+                                                <constraint firstItem="Nca-wZ-baC" firstAttribute="top" secondItem="a5w-Ev-wSK" secondAttribute="topMargin" id="bBQ-40-N2h"/>
+                                                <constraint firstItem="LzG-wg-QFM" firstAttribute="leading" secondItem="a5w-Ev-wSK" secondAttribute="leadingMargin" id="iIz-B4-Vve"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="LzG-wg-QFM" secondAttribute="bottom" constant="33" id="oqd-sj-CU7"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Sbe-tk-hhg" secondAttribute="trailing" constant="170" id="urc-iY-dtK"/>
+                                                <constraint firstItem="Sbe-tk-hhg" firstAttribute="leading" secondItem="a5w-Ev-wSK" secondAttribute="leadingMargin" id="xzv-k8-0Vk"/>
+                                                <constraint firstItem="LzG-wg-QFM" firstAttribute="top" secondItem="Sbe-tk-hhg" secondAttribute="bottom" constant="33" id="zc3-1J-HRV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="myExplanationLabel_Natural" destination="LzG-wg-QFM" id="2Ar-Z0-8eD"/>
+                                            <outlet property="myImage_Natural" destination="Nca-wZ-baC" id="tsZ-R0-Vjd"/>
+                                            <outlet property="myStepLabel_Natural" destination="Sbe-tk-hhg" id="bet-gg-e0g"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="TUT-pw-Y6t" id="JD1-4J-Ldr"/>
+                                    <outlet property="delegate" destination="TUT-pw-Y6t" id="4gU-3p-j4z"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KI9-vG-Lz3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IJJ-qA-oy0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.79999999999995" y="2168.7192118226603"/>
         </scene>
         <!--Infection View Controller-->
         <scene sceneID="WC5-mx-LpK">

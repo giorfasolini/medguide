@@ -10,9 +10,10 @@ import UIKit
 
 class BleedingViewViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    let images = ["Clean_Wound", "Apply_Alcohol","Apply_Bandage"]
-    let stepLabel = ["STEP 1", "STEP 2", "STEP 3"]
-    let explanationLabel = ["Clean the wound by using clean water. Warm water or salt water are reccomended.",
+    let images = ["alkohol+bandage","Clean_Wound", "Apply_Alcohol","Apply_Bandage"]
+    let stepLabel = [" ","STEP 1", "STEP 2", "STEP 3"]
+    let explanationLabel = ["INGREDIENT : Alcohol + Bandage",
+                            "Clean the wound by using clean water. Warm water or salt water are reccomended.",
         "Wipe the wounded area using the medical alcohol by using clean cloth or bandage.",
         "Wrap tightly the part of wounded area. bandage is recommended, alternative : cloth"]
     
