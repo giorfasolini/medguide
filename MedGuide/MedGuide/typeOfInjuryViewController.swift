@@ -11,15 +11,27 @@ import UIKit
 class typeOfInjuryViewController: UIViewController {
 
     @IBOutlet weak var messageTypeOfInjury: UILabel!
+    @IBOutlet weak var bleedingMessage: UILabel!
+    @IBOutlet weak var infectionMessage: UILabel!
+    @IBOutlet weak var boneInjuriesMessage: UILabel!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        if global.language == 1 {
-//            
-//        }
+        if global.language == 1 {
+            messageTypeOfInjury.text = "Pengobatan apa yang anda butuhkan?"
+            bleedingMessage.text = "PENDARAHAN"
+            infectionMessage.text = "INFEKSI"
+            boneInjuriesMessage.text = "CEDERA TULANG"
+        }
+        else if global.language == 0 {
+            messageTypeOfInjury.text = "What Treatment Do You Need?"
+            bleedingMessage.text = "BLEEDING"
+            infectionMessage.text = "INFECTION"
+            boneInjuriesMessage.text = "BONE INJURIES"
+        }
 
         if global.night == 1 {
             self.view.backgroundColor = UIColor.black
